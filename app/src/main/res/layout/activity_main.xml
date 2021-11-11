@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="@dimen/viewdp"
+        android:layout_height="@dimen/viewdp"
+        android:layout_gravity="center"
+        android:background="@color/red"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="@dimen/view2dp"
+        android:layout_height="@dimen/view2dp"
+        android:background="@color/green"/>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_gravity="bottom|right"
+        android:layout_width="@dimen/view3dp"
+        android:layout_height="@dimen/view3dp"
+        android:background="@color/blue"/>
+
+
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viewdp">300dp</dimen>
+    <dimen name="view2dp">200dp</dimen>
+    <dimen name="view3dp">100dp</dimen>
+</resources>
